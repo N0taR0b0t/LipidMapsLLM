@@ -1,0 +1,89 @@
+C27H46O4: Sterols, Bile acids and derivatives
+C14H24O3: Fatty Acyls, Octadecanoids
+C14H22O2: Fatty Acyls, Fatty esters
+C28H42O7: Sterols, Sterols
+C16H30O3: Fatty Acyls, Fatty Acids and Conjugates
+C15H30O3: Fatty Acyls, Fatty Acids and Conjugates
+C18H30O4: Fatty Acyls, Octadecanoids
+C28H40O5: Sterols, Sterols
+C18H33NO4: Fatty Acyls, Fatty amides
+C16H29NO4: Fatty Acyls, Fatty amides
+C14H25NO4: Fatty Acyls, Fatty amides
+C22H35NO6: Fatty Acyls, Eicosanoids
+C18H33NO3: Fatty Acyls, Fatty amides
+C18H31NO4: Fatty Acyls, Fatty Acids and Conjugates
+C15H26O3: Fatty Acyls, Fatty esters
+C20H30O4: Fatty Acyls, Eicosanoids
+C24H38O5: Sterols, Bile acids and derivatives
+C13H26O3: Fatty Acyls, Fatty Acids and Conjugates
+C24H38O4: Sterols, Bile acids and derivatives
+C28H50O4: Sterols, Sterols
+C24H34O6: Sterols, Sterols
+C26H32O6: Polyketides, Flavonoids
+C23H30O5: Sterols, Sterols
+C18H29NO4: Fatty Acyls, Octadecanoids
+C28H46O5: Sterols, Bile acids and derivatives
+C18H34O3: Fatty Acyls, Octadecanoids
+C18H30O3: Fatty Acyls, Octadecanoids
+C15H28O4: Fatty Acyls, Fatty Acids and Conjugates
+C23H38O6: Fatty Acyls, Eicosanoids
+C27H44O5: Sterols, Bile acids and derivatives
+C22H32O4: Fatty Acyls, Docosanoids
+C14H28O3: Fatty Acyls, Fatty Acids and Conjugates
+C24H40O4: Sterols, Bile acids and derivatives
+C24H40O3: Sterols, Bile acids and derivatives
+C12H18O4: Fatty Acyls, Octadecanoids
+C19H30O4: Sterols, Steroids
+C22H32O3: Sterols, Secosteroids
+C14H12O5: Polyketides, Aromatic polyketides
+C26H38O4: Prenol Lipids, Isoprenoids
+C29H51NO6S: Sterols, Steroid conjugates
+C32H52O6: Sterols, Sterols
+C15H24O2: Prenol Lipids, Isoprenoids
+C17H26O5: Fatty Acyls, Fatty Acids and Conjugates
+C28H48O4: Sterols, Sterols
+C21H35O7P: Glycerophospholipids, Glycerophosphates
+C28H50O5: Sterols, Sterols
+C22H30O2: Fatty Acyls, Fatty Acids and Conjugates
+C20H32O3: Fatty Acyls, Eicosanoids
+C24H36O4: Sterols, Bile acids and derivatives
+C21H28O6: Sterols, Steroids
+C20H38O4: Fatty Acyls, Fatty Acids and Conjugates
+C28H40O4: Sterols, Sterols
+C43H79O12P: Glycerophospholipids, Glycerophosphoinositols
+C16H24O3: Fatty Acyls, Fatty Acids and Conjugates
+C13H24O4: Fatty Acyls, Fatty Acids and Conjugates
+C26H36O6: Sterols, Sterols
+C22H36O5: Fatty Acyls, Eicosanoids
+C19H28O4: Sterols, Steroids
+C18H34O4: Fatty Acyls, Octadecanoids
+C18H32O3: Fatty Acyls, Octadecanoids
+C43H83O13P: Glycerophospholipids, Glycerophosphoinositols
+C14H25NO3: Fatty Acyls, Fatty amides
+C54H80O8: Glycerolipids, Triradylglycerols
+C22H36O6: Fatty Acyls, Eicosanoids
+C32H50O7: Sterols, Secosteroids
+C18H28O2: Fatty Acyls, Fatty Acids and Conjugates
+C15H10O4: Polyketides, Flavonoids
+C26H44O4: Sterols, Bile acids and derivatives
+C18H31NO3: Fatty Acyls, Fatty amides
+C19H26O6: Prenol Lipids, Isoprenoids
+C17H26O4: Fatty Acyls, Fatty alcohols
+C47H81O13P: Glycerophospholipids, Glycerophosphoinositols
+C17H26O3: Fatty Acyls, Fatty alcohols
+C27H46O5: Sterols, Bile acids and derivatives
+C15H22O2: Prenol Lipids, Isoprenoids
+C18H28O3: Fatty Acyls, Octadecanoids
+C20H32O4: Fatty Acyls, Eicosanoids
+C26H37NO7: Fatty Acyls, Fatty acyl glycosides
+C24H40O5: Sterols, Bile acids and derivatives
+C15H28O3: Fatty Acyls, Fatty Acids and Conjugates
+C22H30O3: Fatty Acyls, Docosanoids
+C13H24O3: Fatty Acyls, Fatty Acids and Conjugates
+C26H42O5: Sterols, Secosteroids
+C25H49O12P: Glycerophospholipids, Glycerophosphoinositols
+C28H44O4: Sterols, Secosteroids
+C16H32O3: Fatty Acyls, Fatty Acids and Conjugates
+C14H26O4: Fatty Acyls, Fatty Acids and Conjugates
+C15H22O3: Prenol Lipids, Isoprenoids
+C21H40O3: Fatty Acyls, Fatty Acids and Conjugates
