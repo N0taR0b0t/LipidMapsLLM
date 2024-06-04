@@ -1,6 +1,7 @@
 import requests
 import logging
 import findFormula
+from moveGroup import process_lipidmaps
 import time
 import re
 
@@ -27,7 +28,6 @@ def fetch_lipidmaps_data(formula):
             return {
                 'core': data.get('core', ''),
                 'main_class': data.get('main_class', ''),
-                #'sub_class': data.get('sub_class', ''),
                 'formula': data.get('formula', '')
             }
         elif isinstance(data, list) and len(data) > 0:
@@ -35,39 +35,47 @@ def fetch_lipidmaps_data(formula):
             return {
                 'core': data.get('core', ''),
                 'main_class': data.get('main_class', ''),
-                #'sub_class': data.get('sub_class', ''),
                 'formula': data.get('formula', '')
             }
         else:
             logging.error(f"No valid data found for formula {formula}")
+            with open("failedCompounds.txt", "a") as file:
+                file.write(f"{formula}\n")
             print(f"Data for {formula}: {data}")
             return None
     else:
         logging.error(f"Failed to fetch data for formula {formula}")
+        with open("failedCompounds.txt", "a") as file:
+            file.write(f"{formula.strip()}\n")
         return None
 
 def main():
     unique_file = 'Unique.txt'
-    compounds_file = 'Compounds.csv'
+    compounds_file = 'CLA-LPSvsND-LPS.csv'
     matched_formulas_file = 'MatchedFormulas.txt'
     lipidmaps_file = 'LipidMaps.txt'
+
+    # Clear the failedCompounds.txt file at the start of the script
+    open("failedCompounds.txt", "w").close()
 
     # Find matching formulas and write to MatchedFormulas.txt
     findFormula.find_matching_formula(unique_file, compounds_file, matched_formulas_file)
 
     # Fetch additional data from LipidMaps and write to LipidMaps.txt
-    with open(matched_formulas_file, 'r') as mf, open(lipidmaps_file, 'w') as lf:
+    with open(matched_formulas_file, 'r') as mf, open(lipidmaps_file, 'w') as lf, open('preGroup.txt', 'w') as pg:
         for line in mf:
-            formula = line.strip().replace(' ', '')
+            formula = line.replace('"', '').strip()
             if formula:
                 logging.debug(f"Processing formula: {formula}")
                 data = fetch_lipidmaps_data(formula)
                 if data:
-                    data_core = re.sub(r'\[.*?\]', '', data['core']).strip()
-                    data_main_class = re.sub(r'\[.*?\]', '', data['main_class']).strip()
+                    data_core = re.sub(r'\[.*?\]', '', data['core'] if data['core'] else '').strip()
+                    data_main_class = re.sub(r'\[.*?\]', '', data['main_class'] if data['main_class'] else '').strip()
                     lf.write(f"{data['formula']}: {data_core}, {data_main_class}\n")
+                    pg.write(f"{data['formula']} => {data_core}\n")
                     logging.info(f"Fetched data for formula {formula}")
                     time.sleep(0.1)
+    process_lipidmaps('preGroup.txt', 'PostGPT.txt')
 
 if __name__ == "__main__":
     main()
